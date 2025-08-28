@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANTISEXTORSION — Eliminar imágenes íntimas de Internet</title>
+  <meta name="description" content="ANTISEXTORSION ayuda a víctimas de sextorsión a retirar imágenes íntimas de internet con rapidez, confidencialidad y acompañamiento humano.">
+  <meta property="og:title" content="ANTISEXTORSION — Eliminar imágenes íntimas de Internet">
+  <meta property="og:description" content="Ayuda inmediata, confidencialidad total y coordinación con plataformas para bajar contenido íntimo no consentido.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+    .glass { backdrop-filter: blur(14px); background: rgba(15, 23, 42, 0.55); }
+    .container { max-width: 1200px; }
+    .focus-ring:focus { outline: 3px solid rgba(59, 130, 246, 0.8); outline-offset: 2px; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+
+  <!-- Header / Navbar -->
+  <header class="fixed top-0 inset-x-0 z-50">
+    <div class="glass border-b border-white/10">
+      <nav class="container mx-auto flex items-center justify-between px-4 py-3">
+        <a href="#inicio" class="flex items-center gap-2 font-extrabold tracking-tight text-white/95">
+          <span class="inline-block h-9 w-9 rounded-2xl bg-emerald-400/90"></span>
+          <span class="text-xl md:text-2xl">ANTISEXTORSION</span>
+        </a>
+        <button aria-label="Abrir menú" id="menuBtn" class="md:hidden p-2 rounded-xl bg-white/10 hover:bg-white/20 focus-ring">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+        <ul id="navLinks" class="hidden md:flex items-center gap-6 text-sm text-slate-200">
+          <li><a class="hover:text-white/90" href="#como">Cómo funciona</a></li>
+          <li><a class="hover:text-white/90" href="#quienes">Quiénes somos</a></li>
+          <li><a class="hover:text-white/90" href="#recursos">Recursos</a></li>
+          <li><a class="hover:text-white/90" href="#faq">FAQ</a></li>
+          <li><a class="hover:text-white/90" href="#contacto">Contacto</a></li>
+          <li><a class="ml-2 inline-flex items-center gap-2 rounded-2xl bg-emerald-500 px-4 py-2 font-semibold text-slate-900 hover:bg-emerald-400 focus-ring" href="#ayuda">Solicitar ayuda</a></li>
+        </ul>
+      </nav>
+      <div id="mobileMenu" class="md:hidden hidden border-t border-white/10 bg-slate-900/80">
+        <div class="container mx-auto px-4 py-3 space-y-3">
+          <a class="block" href="#como">Cómo funciona</a>
+          <a class="block" href="#quienes">Quiénes somos</a>
+          <a class="block" href="#recursos">Recursos</a>
+          <a class="block" href="#faq">FAQ</a>
+          <a class="block" href="#contacto">Contacto</a>
+          <a class="inline-flex items-center gap-2 rounded-2xl bg-emerald-500 px-4 py-2 font-semibold text-slate-900 hover:bg-emerald-400 focus-ring" href="#ayuda">Solicitar ayuda</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="pt-28 md:pt-32 pb-16 bg-gradient-to-b from-slate-950 to-slate-900">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-black leading-tight">
+          Eliminamos tus imágenes íntimas de Internet.
+          <span class="block text-emerald-400">Rápido. Confidencial. Seguro.</span>
+        </h1>
+        <p class="mt-4 text-slate-300 md:text-lg">Si estás siendo amenazada, presionada o extorsionada con contenido íntimo, no estás sola. Nuestro equipo te ayuda a retirar el material y a bloquear su difusión, coordinando con plataformas y autoridades cuando es necesario.</p>
+        <div class="mt-6 flex flex-wrap items-center gap-3">
+          <a href="#ayuda" class="inline-flex items-center gap-2 rounded-2xl bg-emerald-500 px-5 py-3 font-semibold text-slate-900 hover:bg-emerald-400 focus-ring">Solicitar ayuda ahora</a>
+          <a href="#como" class="inline-flex items-center gap-2 rounded-2xl border border-white/15 px-5 py-3 font-semibold hover:bg-white/5 focus-ring">Cómo funciona</a>
+        </div>
+        <div class="mt-6 flex items-center gap-4 text-xs text-slate-400">
+          <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-400"></span> Confidencialidad estricta</div>
+          <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-400"></span> Respuesta prioritaria</div>
+          <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-400"></span> Acompañamiento humano</div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="absolute -inset-4 bg-emerald-500/20 blur-3xl rounded-full"></div>
+        <div class="relative rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900 to-slate-800 p-6 shadow-2xl">
+          <div class="grid grid-cols-2 gap-3 text-xs text-slate-300">
+            <div class="rounded-2xl bg-slate-800/70 p-4">
+              <p class="font-semibold text-white">Borrado a Plataformas</p>
+              <p>Gestión de reportes y solicitudes urgentes (NCP, revenge porn, doxxing).</p>
+            </div>
+            <div class="rounded-2xl bg-slate-800/70 p-4">
+              <p class="font-semibold text-white">Monitoreo y Bloqueo</p>
+              <p>Seguimiento de re-subidas y alertas tempranas.</p>
+            </div>
+            <div class="rounded-2xl bg-slate-800/70 p-4">
+              <p class="font-semibold text-white">Guía Legal</p>
+              <p>Orientación sobre denuncias y preservación de evidencia.</p>
+            </div>
+            <div class="rounded-2xl bg-slate-800/70 p-4">
+              <p class="font-semibold text-white">Bienestar Emocional</p>
+              <p>Puentes con líneas de apoyo y psicología.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust & Note -->
+  <section class="py-10 border-t border-white/10 bg-slate-900/60">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl bg-slate-800/60 p-5 border border-white/10">
+          <p class="text-sm text-slate-300">Antisextorsion opera con protocolos de respuesta rápida y coordinación con equipos de confianza en plataformas digitales y, cuando corresponde, con autoridades. <span class="text-slate-400">(Si cuentas con permisos/colaboraciones específicas, menciónalas aquí con enlace público.)</span></p>
+        </div>
+        <div class="rounded-2xl bg-slate-800/60 p-5 border border-white/10">
+          <p class="text-sm text-slate-300">Privacidad primero: tratamos tu caso con estricta confidencialidad. Solo compartimos datos si tú lo autorizas o si la ley lo exige.</p>
+        </div>
+        <div class="rounded-2xl bg-slate-800/60 p-5 border border-white/10">
+          <p class="text-sm text-slate-300">Sin juicios ni culpas. Nuestro objetivo es protegerte, reducir el daño y recuperar tu tranquilidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section id="como" class="py-20 bg-gradient-to-b from-slate-900 to-slate-950">
+    <div class="container mx-auto px-4">
+      <div class="max-w-2xl">
+        <h2 class="text-2xl md:text-4xl font-extrabold">Cómo funciona</h2>
+        <p class="mt-3 text-slate-300">Proceso claro, centrado en tu seguridad y control en todo momento.</p>
+      </div>
+      <div class="mt-10 grid md:grid-cols-4 gap-6">
+        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+          <div class="text-4xl font-extrabold text-emerald-400">1</div>
+          <h3 class="mt-3 font-bold text-white">Cuéntanos</h3>
+          <p class="mt-1 text-sm text-slate-300">Completa el formulario seguro o escríbenos. No necesitas dar detalles que te incomoden.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+          <div class="text-4xl font-extrabold text-emerald-400">2</div>
+          <h3 class="mt-3 font-bold text-white">Verificamos y priorizamos</h3>
+          <p class="mt-1 text-sm text-slate-300">Analizamos el caso, resguardamos evidencia y definimos la ruta más rápida de baja.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+          <div class="text-4xl font-extrabold text-emerald-400">3</div>
+          <h3 class="mt-3 font-bold text-white">Retiramos y bloqueamos</h3>
+          <p class="mt-1 text-sm text-slate-300">Gestionamos la remoción en plataformas y el monitoreo para evitar re-subidas.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+          <div class="text-4xl font-extrabold text-emerald-400">4</div>
+          <h3 class="mt-3 font-bold text-white">Acompañamiento</h3>
+          <p class="mt-1 text-sm text-slate-300">Te guiamos en pasos legales y te conectamos con apoyo emocional si lo deseas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quiénes somos -->
+  <section id="quienes" class="py-20 bg-slate-950">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-2xl md:text-4xl font-extrabold">Quiénes somos</h2>
+        <p class="mt-4 text-slate-300">ANTISEXTORSION es una iniciativa de protección digital y apoyo humano enfocada en víctimas de sextorsión y difusión no consentida de material íntimo (NCP). Nuestra misión es reducir el daño y devolver el control a las personas afectadas.</p>
+        <ul class="mt-4 space-y-2 text-slate-300">
+          <li><span class="font-semibold text-white">Misión:</span> proteger, retirar contenido ilícito y acompañar con empatía.</li>
+          <li><span class="font-semibold text-white">Visión:</span> un internet más seguro donde ninguna persona sea chantajeada por su intimidad.</li>
+          <li><span class="font-semibold text-white">Valores:</span> confidencialidad, rapidez, dignidad, transparencia y legalidad.</li>
+        </ul>
+        <p class="mt-4 text-xs text-slate-400">Nota: no somos despacho legal ni cuerpo policial. Proveemos orientación y canalizamos reportes. Colaboraciones/permiso de agencias deben documentarse públicamente; enlaza aquí tus cartas o memorandos para transparencia.</p>
+      </div>
+      <div class="rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900 to-slate-800 p-6">
+        <div class="grid sm:grid-cols-2 gap-4 text-sm">
+          <div class="rounded-2xl bg-slate-800/70 p-4">
+            <p class="font-semibold">Equipo</p>
+            <p class="text-slate-300">Profesionales en respuesta a incidentes, confianza y seguridad, y gestión de reportes.</p>
+          </div>
+          <div class="rounded-2xl bg-slate-800/70 p-4">
+            <p class="font-semibold">Ética</p>
+            <p class="text-slate-300">Cero culpabilización. Decisiones informadas por la víctima.</p>
+          </div>
+          <div class="rounded-2xl bg-slate-800/70 p-4">
+            <p class="font-semibold">Transparencia</p>
+            <p class="text-slate-300">Actualizaciones claras y documentación de cada gestión.</p>
+          </div>
+          <div class="rounded-2xl bg-slate-800/70 p-4">
+            <p class="font-semibold">Seguridad</p>
+            <p class="text-slate-300">Manejo seguro de datos. Eliminación conforme a política.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recursos -->
+  <section id="recursos" class="py-20 bg-slate-900">
+    <div class="container mx-auto px-4">
+      <div class="max-w-2xl">
+        <h2 class="text-2xl md:text-4xl font-extrabold">Recursos inmediatos</h2>
+        <p class="mt-3 text-slate-300">Qué hacer si te están extorsionando ahora mismo.</p>
+      </div>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+          <h3 class="font-bold text-white">Haz esto de inmediato</h3>
+          <ul class="mt-3 space-y-2 text-sm text-slate-300 list-disc pl-5">
+            <li>Detén el contacto con el extorsionador.</li>
+            <li>Guarda evidencia: capturas de pantalla, enlaces, perfiles, IDs.</li>
+            <li>Activa autenticación de dos pasos y cambia contraseñas.</li>
+            <li>Configura privacidad en tus redes; limita quién puede enviarte mensajes.</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+          <h3 class="font-bold text-white">Lo que <span class="underline decoration-rose-400">no</span> debes hacer</h3>
+          <ul class="mt-3 space-y-2 text-sm text-slate-300 list-disc pl-5">
+            <li>No pagues. Pagar rara vez detiene la extorsión.</li>
+            <li>No envíes más material ni información personal.</li>
+            <li>No te aísles: busca apoyo de alguien de confianza.</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+          <h3 class="font-bold text-white">Líneas de apoyo</h3>
+          <ul class="mt-3 space-y-2 text-sm text-slate-300 list-disc pl-5">
+            <li>Autoridades locales de ciberdelito (emergencias: 911/
+                          <li>Autoridades locales de ciberdelito — en situaciones de emergencia comunícate al 911.</li>
+            <li>Organizaciones contra la explotación y violencia digital.</li>
+            <li>Apoyo psicológico y líneas de crisis en tu región.</li>
+          </ul>
+          <p class="mt-3 text-xs text-slate-400">*Personaliza aquí con números y enlaces de tu país/estado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solicitud de ayuda / Google Form -->
+  <section id="ayuda" class="py-20 bg-gradient-to-b from-slate-900 to-slate-950">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="rounded-3xl border border-white/10 bg-slate-900/70 p-6 md:p-10">
+        <h2 class="text-2xl md:text-4xl font-extrabold">Solicitar ayuda confidencial</h2>
+        <p class="mt-2 text-slate-300">Completa el formulario seguro de Google. Solo pedimos la información mínima para iniciar la baja de contenido. Tu caso se maneja con <strong>estricta confidencialidad</strong>.</p>
+
+        <div class="mt-6 rounded-2xl overflow-hidden border border-white/10 bg-slate-900">
+          <iframe
+            title="Formulario de ayuda ANTISEXTORSION"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfyn8rBvyqej-JUbXtj0wa5ynnS3OFYMEd0Uy4i9cMFt0aoQA/viewform?embedded=true"
+            width="100%"
+            height="1200"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0">Cargando…</iframe>
+        </div>
+
+        <p class="mt-4 text-sm text-slate-400">Si el formulario no carga, <a class="underline hover:text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSfyn8rBvyqej-JUbXtj0wa5ynnS3OFYMEd0Uy4i9cMFt0aoQA/viewform?usp=header" target="_blank" rel="noopener">ábrelo en una nueva pestaña</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="py-20 bg-slate-950">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl md:text-4xl font-extrabold">Historias reales (anónimas)</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6 text-sm">
+        <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-5">
+          <p class="text-slate-300">“Pensé que ya era tarde, pero al día siguiente los enlaces habían desaparecido. Gracias por el trato humano.”</p>
+          <p class="mt-3 text-slate-400">— M., 22</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-5">
+          <p class="text-slate-300">“Me acompañaron a denunciar sin presión. Sentí que recuperé el control.”</p>
+          <p class="mt-3 text-slate-400">— M., 19</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-5">
+          <p class="text-slate-300">“Su guía para preservar evidencia fue clave. Ahora tengo paz.”</p>
+          <p class="mt-3 text-slate-400">— L., 27</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-20 bg-slate-900">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <h2 class="text-2xl md:text-4xl font-extrabold">Preguntas frecuentes</h2>
+      <div class="mt-8 space-y-3">
+        <details class="group rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">¿Cuánto tarda la baja de contenido?
+            <span class="transition-transform group-open:rotate-180">⌄</span></summary>
+          <p class="mt-3 text-sm text-slate-300">Depende de la plataforma y del tipo de publicación. Damos prioridad a riesgos inminentes y coordinamos solicitudes urgentes cuando corresponde.</p>
+        </details>
+        <details class="group rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">¿Cobran por el servicio?
+            <span class="transition-transform group-open:rotate-180">⌄</span></summary>
+          <p class="mt-3 text-sm text-slate-300">La evaluación es gratuita. Si se requieren gestiones avanzadas, te lo informaremos antes y siempre con tu aprobación.</p>
+        </details>
+        <details class="group rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">¿Pueden ayudar si el agresor está en otro país?
+            <span class="transition-transform group-open:rotate-180">⌄</span></summary>
+          <p class="mt-3 text-sm text-slate-300">Sí. Muchas plataformas aplican políticas globales y contamos con redes de reporte internacional.</p>
+        </details>
+        <details class="group rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">¿Mantendrán mi anonimato?
+            <span class="transition-transform group-open:rotate-180">⌄</span></summary>
+          <p class="mt-3 text-sm text-slate-300">Sí. Puedes usar un alias. Solo compartimos datos cuando tú lo autorices o por exigencia legal.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-20 bg-slate-950">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-2xl md:text-4xl font-extrabold">Contacto</h2>
+        <p class="mt-3 text-slate-300">Escríbenos con total confianza. También podemos coordinar una llamada.</p>
+        <ul class="mt-5 space-y-2 text-slate-300">
+          <li><span class="text-white font-semibold">Email:</span> <a class="underline hover:text-white" href="mailto:contacto@antisextorsion.org">contacto@antisextorsion.org</a></li>
+          <li><span class="text-white font-semibold">Horario:</span> 24/7 para emergencias digitales.</li>
+        </ul>
+      </div>
+      <div class="rounded-3xl border border-white/10 bg-slate-900/70 p-6">
+        <h3 class="font-bold text-white">Política de privacidad (resumen)</h3>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300 list-disc pl-5">
+          <li>Datos mínimos, uso limitado al proceso de baja.</li>
+          <li>Almacenamiento cifrado y eliminación al cierre del caso.</li>
+          <li>Transparencia: puedes solicitar tu expediente y borrado total.</li>
+        </ul>
+        <p class="mt-3 text-xs text-slate-400">Consulta la versión completa en <a href="#" class="underline">Privacidad</a> y <a href="#" class="underline">Términos</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 bg-slate-950/80">
+    <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+      <div class="flex items-center gap-2">
+        <span class="inline-block h-7 w-7 rounded-xl bg-emerald-400/90"></span>
+        <span class="font-bold text-slate-200">ANTISEXTORSION</span> · © <span id="year"></span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="#quienes" class="hover:text-slate-200">Quiénes somos</a>
+        <a href="#recursos" class="hover:text-slate-200">Recursos</a>
+        <a href="#" class="hover:text-slate-200">Privacidad</a>
+        <a href="#" class="hover:text-slate-200">Términos</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', ()=> mobileMenu.classList.toggle('hidden'));
+  </script>
+</body>
+</html>
